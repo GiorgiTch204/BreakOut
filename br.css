@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+canvas {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+#score, #level, #lives {
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#score {
+  left: 10px;
+}
+
+#level {
+  right: 10px;
+}
+
+#lives {
+  top: 40px;
+  left: 10px;
+}
